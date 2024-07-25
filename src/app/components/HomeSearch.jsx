@@ -27,7 +27,7 @@ export default function HomeSearch() {
 
   return (
     <>
-        <form onSubmit={handleSubmit} className="flex items-center w-full mt-5 mx-auto max-w-[90%] border border-gray-200 px-5 py-3 rounded-full hover:shadow focus-within:shadow-md transition-shadow sm:max-w-xl lg:max-w-2xl">
+        <form onSubmit={handleSubmit} className="flex items-center w-full mt-5 mx-auto max-w-[90%] border border-gray-200 px-5 py-3 rounded-full hover:shadow-md focus-within:shadow-md transition-shadow sm:max-w-xl lg:max-w-2xl">
             <AiOutlineSearch className="text-xl text-gray-500 mr-3"/>
             <input onChange={(e) => setInput(e.target.value)} type="text" value={input} className="flex-grow focus:outline-none" />
             <Image width={32} height={44} src="/mic.svg"/>
