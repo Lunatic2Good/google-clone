@@ -21,7 +21,6 @@ export default function WebSearchResults({ results }) {
                     </Link>
                 </div>
                 <p className="text-gray-600">{Parser(result.htmlSnippet)}</p>
-                {console.log(result)}
             </div>
         ))}
     </div>
