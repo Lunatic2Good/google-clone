@@ -10,7 +10,7 @@ export default function SearchHeader() {
     <header className='sticky top-0 bg-white'>
         <div className="flex w-full p-6 items-center justify-between">
             <Link href={"/"}>
-                <Image width={120} height={40} src="https://www.google.co.in/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png" alt="Google Logo" priority/>
+                <Image width={120} height={40} src="https://www.google.co.in/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png" alt="Google Logo" priority style={{width: "auto"}}/>
             </Link>
 
             <div className="flex-1">

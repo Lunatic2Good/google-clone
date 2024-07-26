@@ -9,7 +9,7 @@ export default function Home() {
 
       {/* body */}
       <div className="flex flex-col items-center mt-24">
-        <Image width={300} height={100} src="https://www.google.co.in/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png" alt="Google Logo" priority/>
+        <Image width={300} height={100} src="https://www.google.co.in/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png" alt="Google Logo" priority style={{width: "auto"}}y/>
         <HomeSearch/>
       </div>
     </>
