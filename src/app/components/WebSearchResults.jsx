@@ -12,7 +12,7 @@ export default function WebSearchResults({ results }) {
 
         {results.items?.map((result) => (
             <div key={result.link} className="mb-8 max-w-xl">
-                <img src={result.pagemap?.cse_thumbnail?.[0]?.src} width={30} alt="" />
+                {/* <img src={result.pagemap?.cse_thumbnail?.[0]?.src} width={30} alt="" /> */}
                 <div className="group flex flex-col">
                     <Link className="text-sm truncate" href={result.link}>
                         {result.formattedUrl}
