@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "../globals.css";
 import SearchHeader from "../components/SearchHeader";
+import PaginationButtons from "../components/PaginationButtons";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,6 +15,10 @@ export default function SearchLayout({ children }) {
     <div className={inter.className}>
         <SearchHeader/>
         {children}
+        {/* <div className="">
+
+        <PaginationButtons/>
+        </div> */}
     </div>
   );
 }
