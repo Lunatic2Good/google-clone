@@ -15,10 +15,6 @@ export default function SearchLayout({ children }) {
     <div className={inter.className}>
         <SearchHeader/>
         {children}
-        {/* <div className="">
-
-        <PaginationButtons/>
-        </div> */}
     </div>
   );
 }

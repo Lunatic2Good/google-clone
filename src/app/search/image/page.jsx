@@ -12,7 +12,7 @@ export default async function WebSearchPage({searchParams}) {
   }
 
   const data = await response.json();
-  console.log(data.items);
+  // console.log(data.items);
   const results = data.items;
 
   if(!results) {

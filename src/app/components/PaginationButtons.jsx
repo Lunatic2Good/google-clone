@@ -11,7 +11,7 @@ export default function PaginationButtons() {
   const startIndex = +searchParams.get('start') || 10;
   // console.log(searchParams.get('start'));
   // console.log(pathname);
-  console.log(startIndex);
+  // console.log(startIndex);
 
   return (
     <div className='text-blue-700 flex px-10 pb-4 justify-between sm:justify-start sm:space-x-44 sm:px-0'>
